@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import {View, Button, StyleSheet, FlatList} from "react-native";
 
+
+
+
 const ColorScreen = () => {
 
     const [colors, setColors] = useState([]);
