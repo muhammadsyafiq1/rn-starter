@@ -11,6 +11,8 @@ const HomeScreen = ({navigation}) => {
         <Button onPress={() => navigation.navigate('ScreenCounter')} title="Counter" />
         <Button onPress={ () => navigation.navigate('ColorScreen')} title="Color" />
         <Button onPress={ ()=> navigation.navigate('SquareScreen')} title="Square" /> 
+        <Button onPress={() => navigation.navigate('TextScreen')}  title="Text Screen"/>
+        <Button onPress={() => navigation.navigate('BoxScreen')}  title="Box"/>
       </View>
   );
 };
@@ -22,3 +24,4 @@ const styles = StyleSheet.create({
 });
 
 export default HomeScreen;
+ 
